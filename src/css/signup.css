@@ -1,0 +1,186 @@
+.auth{
+   transform: translateY(20vh);
+ display: flex;
+    
+   justify-content: center;
+}
+.container{
+  
+     width: auto;
+   
+   padding: 20px;
+   height: auto;
+   transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+   display: flex;
+   flex-direction: row;
+   
+   gap: 80px;
+   position: relative;
+   background-color: rgba(247, 247, 247, 0.588);
+   border-radius: 10px;
+  box-shadow: 1px 1px  4px rgb(112, 112, 112);
+}
+.container:hover{
+  transform: scale(1.02);
+   box-shadow: 1px 5px  10px rgb(112, 112, 112);
+}
+
+.sign-up-box{
+    
+   
+      display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.sign-up-box p{
+  cursor: pointer;
+  color: blue;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-size: 12px;
+}
+.sign-up-box h4{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 300px;
+  font-size: 12px;
+  color: red;
+}
+.sign-up-box p:active{
+  color: blueviolet;
+}
+.sign-up-box p:hover{
+  color: blueviolet;
+}
+.sign-up-box input{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left:5px ;
+    background-color: rgb(233, 232, 232);
+    border: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.sign-up-box input:hover{
+    transform: scale(1.01);
+    transform: translateY(-2px);
+     box-shadow: 1px 1px 5px rgb(160, 160, 160);
+}
+
+.sign-up-box button{
+    border: none;
+      width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: rgb(248, 72, 8);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.sign-up-box button:hover{
+      transform: scale(1.05);
+      box-shadow: 1px 1px 5px black;
+}
+.sign-up-box h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(61, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* slider */
+.slider{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right,rgb(255, 35, 72),rgb(255, 86, 1));
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 95%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  border-radius: 10px;
+  box-shadow: 0 0 5px black;
+}
+
+.slider p{
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 15px;
+}
+.slider h1{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 35px;
+}
+.slider button{
+  
+  color: white;
+  background:transparent;
+  border-color: white;
+  border-style: ridge;
+  font-size:15px ;
+ 
+  padding: 8px 30px;
+  border-radius: 50px;
+}
+
+/* signin */
+.sign-in-box{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   margin-left:20px ;
+}
+
+.sign-in-box input{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left:5px ;
+    background-color: rgb(233, 232, 232);
+    border: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.sign-in-box input:hover{
+     transform: scale(1.01);
+    transform: translateY(-2px);
+     box-shadow: 1px 1px 5px rgb(160, 160, 160);
+}
+
+.sign-in-box button{
+    border: none;
+      width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 10px;
+    background-color: rgb(248, 72, 8);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.sign-in-box button:hover{
+      transform: scale(1.05);
+      box-shadow: 1px 1px 5px black;
+}
+.sign-in-box h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(61, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sign-in-box p{
+  cursor: pointer;
+  color: blue;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-size: 12px;
+}
+
+.sign-in-box p:active{
+  color: blueviolet;
+}
+.sign-in-box p:hover{
+  color: blueviolet;
+}

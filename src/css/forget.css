@@ -1,0 +1,74 @@
+
+.forget-auth{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(30vh);
+}
+
+.forget-box{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    width: auto;
+    padding: 10px 20px;
+     background-color: rgba(247, 247, 247, 0.588);
+   border-radius: 10px;
+  box-shadow: 1px 1px  4px rgb(112, 112, 112);
+    height: auto;
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.forget-box:hover{
+     transform: scale(1.02);
+   box-shadow: 1px 5px  10px rgb(112, 112, 112);
+}
+
+.forget-box h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: rgb(61, 61, 61);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.forget-box input{
+     width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    padding-left:5px ;
+    background-color: rgb(233, 232, 232);
+    border: none;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.forget-box input:hover{
+     transform: scale(1.05);
+     box-shadow: 1px 1px 5px rgb(160, 160, 160);
+}
+.forget-box button{
+      border: none;
+      width: 200px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(248, 72, 8);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.forget-box button:hover{
+     transform: scale(1.05);
+      box-shadow: 1px 1px 5px black;
+}
+
+.forget-box h5{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 300px;
+  font-size: 12px;
+}
+.forget-box h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 300px;
+  font-size: 12px;
+  color: red;
+}
